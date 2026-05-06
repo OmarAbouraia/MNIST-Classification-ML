@@ -62,8 +62,8 @@ This project was a collaborative effort by a team of 5 engineering students at *
 ## 🔗 Project Resources
 *   📂 **[Full Phase 1 Technical Report](./Docs/MNIST_Phase1_Report.pdf)**
 *   📂 **[Full Phase 2 Technical Report](./Docs/MNIST_Phase2_Report.pdf)**
-*   📓 **[Phase 1 Implementation Notebook](./Phase1_MNIST_Binary_Classification.ipynb)**
-*   📓 **[Phase 2 Optimization Notebook](./Phase2_Multiclass_Classification_Improvement.ipynb)**
+*   📓 **[Phase 1 Binary Classification Notebook](./Phase1_MNIST_Binary_Classification.ipynb)**
+*   📓 **[Phase 2 Multiclass Classification Notebook](./Phase2_Multiclass_Classification_Improvement.ipynb)**
 
 ---
 
