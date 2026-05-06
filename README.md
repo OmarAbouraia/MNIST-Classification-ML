@@ -6,22 +6,22 @@
 [![Status](https://img.shields.io/badge/Phase-2--Optimized-green?style=flat-square)]()
 
 ## 📖 Project Overview
-This project demonstrates an end-to-end machine learning pipeline for classifying handwritten digits from the **MNIST dataset**[cite: 1, 4]. The workflow transitioned through two distinct phases: establishing a baseline with binary classification and scaling to a high-performance multiclass solution using advanced optimization and feature engineering[cite: 1, 4].
+This project demonstrates an end-to-end machine learning pipeline for classifying handwritten digits from the **MNIST dataset**. The workflow transitioned through two distinct phases: establishing a baseline with binary classification and scaling to a high-performance multiclass solution using advanced optimization and feature engineering.
 
 ### 🧩 Core Pipeline Components
-*   **Preprocessing:** Data normalization, feature scaling, and stratified splitting[cite: 4].
-*   **Custom Algorithms:** From-scratch implementations of Softmax Regression, Linear SVM, and Random Forest[cite: 4].
-*   **Optimization:** Stratified K-Fold Cross-Validation, L2 Regularization, and Bias-Variance diagnostic analysis[cite: 4].
+*   **Preprocessing:** Data normalization, feature scaling, and stratified splitting.
+*   **Custom Algorithms:** From-scratch implementations of Softmax Regression, Linear SVM, and Random Forest.
+*   **Optimization:** Stratified K-Fold Cross-Validation, L2 Regularization, and Bias-Variance diagnostic analysis.
 
 ---
 
 ## 🚀 Phase 1: Binary Classification (3 vs 8)
-The initial phase focused on distinguishing between the digits "3" and "8", selected specifically for their high visual similarity and classification challenge[cite: 1].
+The initial phase focused on distinguishing between the digits "3" and "8", selected specifically for their high visual similarity and classification challenge.
 
 ### 🛠️ Strategic Implementation
-*   **Problem Definition:** Supervised binary classification on $28 \times 28$ grayscale images[cite: 1].
-*   **Feature Representations:** Comparative evaluation using **Raw Pixels**, **PCA** (50 dimensions), and **HOG** (Histogram of Oriented Gradients)[cite: 1].
-*   **Top Performer:** The **Linear SVM with HOG** features achieved the best performance with a validation F1-score of **0.9948**[cite: 1].
+*   **Problem Definition:** Supervised binary classification on $28 \times 28$ grayscale images.
+*   **Feature Representations:** Comparative evaluation using **Raw Pixels**, **PCA** (50 dimensions), and **HOG** (Histogram of Oriented Gradients).
+*   **Top Performer:** The **Linear SVM with HOG** features achieved the best performance with a validation F1-score of **0.9948**.
 
 ---
 
@@ -29,15 +29,15 @@ The initial phase focused on distinguishing between the digits "3" and "8", sele
 Phase 2 expanded the scope to all 10 digits (0–9) and introduced advanced architectural improvements to handle increased complexity and prevent overfitting[cite: 4].
 
 ### 🛠️ Advanced Model Enhancements
-*   **Feature Engineering (CNN):** Leveraged a pretrained **MobileNetV2** model to extract high-level feature vectors, capturing complex spatial patterns that surpassed raw pixel representations[cite: 4].
-*   **Ensemble Learning:** Implemented a **Random Forest** from scratch to capture non-linear relationships and reduce model variance[cite: 4].
-*   **Hyperparameter Tuning:** Utilized **Stratified K-Fold Cross-Validation** to identify optimal learning rates and regularization strengths[cite: 4].
-*   **Performance Diagnostics:** Plotted **Learning Curves** and conducted bias-variance analysis to ensure the final model was well-balanced[cite: 4].
+*   **Feature Engineering (CNN):** Leveraged a pretrained **MobileNetV2** model to extract high-level feature vectors, capturing complex spatial patterns that surpassed raw pixel representations.
+*   **Ensemble Learning:** Implemented a **Random Forest** from scratch to capture non-linear relationships and reduce model variance.
+*   **Hyperparameter Tuning:** Utilized **Stratified K-Fold Cross-Validation** to identify optimal learning rates and regularization strengths.
+*   **Performance Diagnostics:** Plotted **Learning Curves** and conducted bias-variance analysis to ensure the final model was well-balanced.
 
 ---
 
 ## 📊 Performance Comparison
-The hybrid approach combining Deep Learning for feature extraction and classical ML for classification proved most effective[cite: 4].
+The hybrid approach combining Deep Learning for feature extraction and classical ML for classification proved most effective.
 
 | Model Implementation | Feature Type | Optimization Strategy | Validation F1-Score |
 | :--- | :--- | :--- | :--- |
@@ -49,7 +49,7 @@ The hybrid approach combining Deep Learning for feature extraction and classical
 ---
 
 ## 🤝 The Team
-This project was a collaborative effort by a team of 5 engineering students at **Ain Shams University (ASU)**[cite: 1, 4]:
+This project was a collaborative effort by a team of 5 engineering students at **Ain Shams University (ASU)**:
 
 *   **👨🏻‍💻 Omar Ahmed Abouraia**
 *   **👨🏻‍💻 Hossam Osama Hussieny**
